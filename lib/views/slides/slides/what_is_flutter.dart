@@ -12,9 +12,9 @@ class WhatIsFlutter extends StatelessWidget {
         SlideEnumerationBlock(
           entries: [
             'Framework para desenvolvimento MULTIPLATAFORMA',
+            'Utiliza a linguagem Dart (google)',
             'Criado em 2015 pela Google com o nome de SKY (Apenas Android)',
             'Apresentado comercialmente no Google I/O 2017 já com suporte a IOS',
-            'Utiliza a linguagem Dart (google)',
             'Em 2019 passou a suportar Web e Desktop e em 2021 Linux, Mac e IOT',
             'Opensource ❤️',
           ],
