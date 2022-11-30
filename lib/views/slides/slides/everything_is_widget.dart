@@ -14,7 +14,6 @@ class EverythingIsWidget extends StatelessWidget {
             'São os componentes do Flutter',
             'Basicamente pequenos pedaços de UI que podem ser combinados',
             'São definidos através de classes em Dart',
-            'Layout e Interface',
             'Centenas de Widgets já inclusos na plataforma',
             'Liberdade para criar seus próprios Widgets',
             'https://docs.flutter.dev/development/ui/widgets'

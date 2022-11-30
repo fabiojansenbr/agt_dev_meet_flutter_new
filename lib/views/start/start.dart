@@ -14,12 +14,20 @@ class StartView extends StatelessWidget {
         alignment: Alignment.center,
         children: [
           Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage("assets/images/background.jpg"),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          Container(
             padding: EdgeInsets.all(50.0),
             child: Center(
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(25.0),
-                  color: Color(0XFF550073),
+                  color: Color(0XFF550073).withAlpha(200),
                 ),
                 width: 800,
                 height: 300,

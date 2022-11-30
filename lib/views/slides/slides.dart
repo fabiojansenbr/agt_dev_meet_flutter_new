@@ -12,9 +12,13 @@ import 'package:agt_dev_meet_flutter/views/slides/slides/interest.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/introduction_brendo.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/introduction_jeferson.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/performance_study.dart';
+import 'package:agt_dev_meet_flutter/views/slides/slides/pub_dev.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/slide_teste.dart';
 
 import 'package:agt_dev_meet_flutter/views/slides/slides/thank_you.dart';
+import 'package:agt_dev_meet_flutter/views/slides/slides/under_the_hood_flutter.dart';
+import 'package:agt_dev_meet_flutter/views/slides/slides/under_the_hood_react.dart';
+import 'package:agt_dev_meet_flutter/views/slides/slides/using_flutter_world.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/what_is_flutter.dart';
 import 'package:flutter/material.dart';
 
@@ -41,15 +45,6 @@ class _SlidesViewState extends State<SlidesView> {
 
   List<Slide> _slides = [
     Slide(
-      content: IntroductionFabioSlide(),
-    ),
-    Slide(
-      content: IntroductionBrendoSlide(),
-    ),
-    Slide(
-      content: IntroductionJefersonSlide(),
-    ),
-    Slide(
       title: 'O que é o Flutter e pra que serve?',
       content: WhatIsFlutter(),
     ),
@@ -58,12 +53,24 @@ class _SlidesViewState extends State<SlidesView> {
       content: DartLanguage(),
     ),
     Slide(
+      title: 'Por baixo dos panos - React Native',
+      content: UnderTheHoodReact(),
+    ),
+    Slide(
+      title: 'Por baixo dos panos - Flutter',
+      content: UnderTheHoodFlutter(),
+    ),
+    Slide(
       title: 'Widgets',
       content: EverythingIsWidget(),
     ),
     Slide(
       title: 'Exemplo de Widget',
       content: WidgetSample(),
+    ),
+    Slide(
+      title: 'Repositório de Widgets e Bibliotecas',
+      content: PubDev(),
     ),
     Slide(
       title: 'Design + Performance',
@@ -78,16 +85,8 @@ class _SlidesViewState extends State<SlidesView> {
       content: Interest(),
     ),
     Slide(
-      title: 'Reservado Fabio 1',
-      content: SlideTeste(),
-    ),
-    Slide(
-      title: 'Reservado Fabio 2',
-      content: SlideTeste(),
-    ),
-    Slide(
-      title: 'Reservado Fabio 3',
-      content: SlideTeste(),
+      title: 'Empresas usando Flutter - Mundo',
+      content: UsingFlutterWorld(),
     ),
     Slide(
       title: 'Desafios:',
