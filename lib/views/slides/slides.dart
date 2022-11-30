@@ -2,6 +2,7 @@ import 'package:agt_dev_meet_flutter/shared/widgets/custom/composed/slide_scaffo
 import 'package:agt_dev_meet_flutter/views/slides/slides/architecture.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/clean_architecture.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/components.dart';
+import 'package:agt_dev_meet_flutter/views/slides/slides/current_challenges.dart';
 
 import 'package:agt_dev_meet_flutter/views/slides/slides/design_performance.dart';
 
@@ -10,6 +11,7 @@ import 'package:agt_dev_meet_flutter/views/slides/slides/hardware_communication.
 import 'package:agt_dev_meet_flutter/views/slides/slides/interest.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/introduction_brendo.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/introduction_jeferson.dart';
+import 'package:agt_dev_meet_flutter/views/slides/slides/performance_study.dart';
 import 'package:agt_dev_meet_flutter/views/slides/slides/slide_teste.dart';
 
 import 'package:agt_dev_meet_flutter/views/slides/slides/thank_you.dart';
@@ -86,6 +88,14 @@ class _SlidesViewState extends State<SlidesView> {
     Slide(
       title: 'Reservado Fabio 3',
       content: SlideTeste(),
+    ),
+    Slide(
+      title: 'Desafios:',
+      content: CurrentChallenges(),
+    ),
+    Slide(
+      title: 'Análise:',
+      content: PerformanceStudy(),
     ),
     Slide(
       title: 'Clean Archicteture',
