@@ -1,4 +1,7 @@
 import 'package:agt_dev_meet_flutter/shared/widgets/custom/composed/slide_scaffold/slide_scaffold.dart';
+import 'package:agt_dev_meet_flutter/views/slides/slides/architecture.dart';
+import 'package:agt_dev_meet_flutter/views/slides/slides/clean_architecture.dart';
+import 'package:agt_dev_meet_flutter/views/slides/slides/components.dart';
 
 import 'package:agt_dev_meet_flutter/views/slides/slides/design_performance.dart';
 
@@ -83,6 +86,18 @@ class _SlidesViewState extends State<SlidesView> {
     Slide(
       title: 'Reservado Fabio 3',
       content: SlideTeste(),
+    ),
+    Slide(
+      title: 'Clean Archicteture',
+      content: CleanArchitecture(),
+    ),
+    Slide(
+      title: 'Arquitetura',
+      content: Architecture(),
+    ),
+    Slide(
+      title: 'Componentes',
+      content: Components(),
     ),
     Slide(
       content: ThankYouSlide(),
